@@ -4,6 +4,7 @@ import MaxWidthWrapper from "@/components/MaxWidthWrapper";
 import Phone from "@/components/Phone";
 import { ArrowRight, Check, Star } from "lucide-react";
 import Link from "next/link";
+import Reviews from "@/components/Reviews";
 
 export default function Home() {
   return (
@@ -196,6 +197,10 @@ export default function Home() {
             </div>
           </div>
         </MaxWidthWrapper>
+
+        <div className="pt-16">
+          <Reviews />
+        </div>
       </section>
 
       <section>
