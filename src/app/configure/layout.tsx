@@ -1,4 +1,5 @@
 import MaxWidthWrapper from "@/components/MaxWidthWrapper";
+import Steps from "@/components/Steps";
 
 type Props = {
   children: React.ReactNode;
@@ -7,6 +8,7 @@ type Props = {
 const Layout = ({ children }: Props) => {
   return (
     <MaxWidthWrapper className="flex flex-col flex-1">
+      <Steps />
       {children}
     </MaxWidthWrapper>
   );
